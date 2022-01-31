@@ -1,0 +1,29 @@
+h1{
+    background-color: #882726;
+    color: white;
+    text-align: center;
+}
+
+#BlockText {
+    background-color: #bfbfbf;
+    padding: 20px;
+    margin: 0;
+}
+
+#BlockText1 {
+    background-color: #6394eb;
+    padding: 40px 0;
+    margin: 0;
+}
+div {
+    width: 200px;
+    height: 200px;
+}
+
+#GreenBlock {
+    background-color: green;
+}
+#RoundBlock{
+    background-color: #8785aa;
+    border-radius: 20px;
+}

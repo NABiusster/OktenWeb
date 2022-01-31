@@ -1,0 +1,32 @@
+div{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-transform: uppercase;
+    border: 1px solid silver;
+    background: orange;
+    margin: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+.a{
+    box-shadow: 20px 20px 0 0 #404040;
+}
+.b{
+    box-shadow: 20px 20px 5px 0 #404040;
+}
+.c{
+    box-shadow: 20px 20px 10px 0 #404040;
+}
+.d{
+    box-shadow: 20px 20px 10px 0 silver;
+}
+.e{
+    border-radius: 5px;
+    box-shadow: 20px 20px 10px 0 #404040;
+}
+.f{
+    border-radius: 5px;
+    box-shadow: 20px 20px 10px 0 silver;
+}
+

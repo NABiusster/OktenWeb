@@ -1,0 +1,17 @@
+/*noinspection ALL*/
+.Bigblock{
+    margin: 100px 0px 40px 10px;
+    width: 600px;
+    height: 280px;
+    background-color: gray;
+    box-shadow: -10px -50px 100px 0px #fd6e1d;
+    box-shadow: -10px -50px 30px 10px rgba(200, 150, 100, 0.50);
+}
+p{
+    margin: 0 0 0 10px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    border-left: 5px solid red;
+    font-size: 22px;
+}
+
