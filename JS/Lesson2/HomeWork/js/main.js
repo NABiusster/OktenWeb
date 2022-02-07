@@ -59,7 +59,8 @@ switch (dayOfWeek) {
     case "7": {
         console.log("Готуємось до роботи");
         break;
-    } default:{
+    }
+    default: {
         console.log("А це, що таке??")
     }
 }
@@ -69,8 +70,22 @@ switch (dayOfWeek) {
 let Year = prompt("Введіть рік:");
 debugger
 
-if (!isNaN(+Year) && new Date(+Year, 2, 0).getDate() === 28) {
-    console.log("Звичайний рік")
+if (!isNaN(+Year)) {
+    if (new Date(+Year, 2, 0).getDate() === 28) {
+        console.log("Звичайний рік")
+    } else {
+        console.log("Високосний рік")
+    }
 } else {
-    console.log("Високосний рік")
+    alert("Введіть число!!!");
+}
+
+// Використовуючи конструкцію if..else, напишіть код, який запитуватиме: „Яка «офіційна» назва JavaScript?“
+// Якщо користувач вводить «ECMAScript», то показати: «Правильно!», інакше – відобразити: «Не знаєте? ECMAScript!
+
+let jsName = prompt("Яка «офіційна» назва JavaScript?");
+if (jsName==="ECMAScript"){
+    console.log("Правильно!")
+}else{
+    console.log("Не знаєте? ECMAScript!")
 }
