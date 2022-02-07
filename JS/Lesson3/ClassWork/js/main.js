@@ -47,15 +47,14 @@ for (i = 0; i < arr.length; i++) {
         console.log(arr[i]);
     }
 }
+let arrOcten = arr;
 // 7. замінити кожне число кратне 3 на слово "okten"
 console.log("замінити кожне число кратне 3 на слово \"okten\"")
-for (let arrItem of arr) {
+for (let arrItem of arrOcten) {
     if (arrItem % 3 === 0) {
-        console.log("okten");
-    } else {
-        console.log(arrItem);
+        arrItem = "okten";
     }
-
+    console.log(arrItem);
 }
 // 8. вивести масив в зворотньому порядку.
 console.log("вивести масив в зворотньому порядку.")
@@ -115,8 +114,9 @@ for (i = arr.length - 1; i >= 0; i--) {
 }
 // 7. замінити кожне число кратне 3 на слово "okten"
 console.log("в зворотньому циклі замінити кожне число кратне 3 на слово \"okten\"")
-for (i = arr.length - 1; i >= 0; i--) {
-    if (arr[i] % 3 === 0) {
-        console.log("okten");
-    }else{console.log(arr[i]);}
+for (i = arrReverse.length - 1; i >= 0; i--) {
+    if (arrReverse[i] % 3 === 0) {
+        arrReverse[i] = "okten";
+    }
+    console.log(arr[i]);
 }

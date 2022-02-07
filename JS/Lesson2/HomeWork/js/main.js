@@ -67,11 +67,10 @@ switch (dayOfWeek) {
 
 // - Потрібно визначити Високосний рік чи ні. Високосні роки діляться націло на 4.
 
-let Year = prompt("Введіть рік:");
-debugger
+let year = prompt("Введіть рік:");
 
-if (!isNaN(+Year)) {
-    if (new Date(+Year, 2, 0).getDate() === 28) {
+if (!isNaN(+year)) {
+    if (new Date(+year, 2, 0).getDate() === 28) {
         console.log("Звичайний рік")
     } else {
         console.log("Високосний рік")

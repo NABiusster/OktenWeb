@@ -89,7 +89,7 @@ for (let arrItem of arr4) {
 
 console.log(" - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.")
 let arr5 = [null, null, null, null, null, null, null, null, null, null];
-TempB = false;
+let TempB = false;
 for (let j = 0; j < 10; j += 3) {
     arr5[j] = `Text ${j}`;
 }

@@ -1,27 +1,28 @@
 // Користувач вводить або має два числа.
 // Потрібно знайти та вивести максимальне число з тих двох.
 // Також потрібно врахувати коли введені рівні числа.
-a1 = prompt("Введіть 1 число");
-a2 = prompt("Введіть 2 число)");
-if (a1 > a2) {
-    console.log("число 1 > числа 2");
-} else if (a1 < a2) {
-    console.log("число 2 > числа 1");
-} else {
-    console.log("Числа рівні!");
-}
+let a1 = prompt("Введіть 1 число");
+let a2 = prompt("Введіть 2 число)");
+if (!isNaN(+a1) && !isNaN(+a2)) {
+    if (+a1 > +a2) {
+        console.log("число 1 > числа 2");
+    } else if (+a1 < +a2) {
+        console.log("число 2 > числа 1");
+    } else {
+        console.log("Числа рівні!");
+    }
+} else console.log("Введіть числа")
 
 // У першому під'їзді квартири з 1 до 20. У другому з 21 по 48. У третьому з 49 по 90.
 // Користувач вводить номер квартири просто в змінні або через prompt('') .
 // Програма повинна зазначити, в якому під'їзді знаходиться дана квартира.
-let Flat = prompt("Введіть номер квартири");
-debugger
-if (typeof Flat === "number" && Flat % 1 === 0) {
-    if (Flat >= 1 && Flat <= 20) {
+let flat = prompt("Введіть номер квартири");
+if (!isNaN(+flat) && flat % 1 === 0) {
+    if (flat >= 1 && flat <= 20) {
         console.log("Квартира знаходиться у 1-му під'їзді");
-    } else if (Flat >= 21 && Flat <= 48) {
+    } else if (flat >= 21 && flat <= 48) {
         console.log("Квартира знаходиться у 2-му під'їзді");
-    } else if (Flat >= 21 && Flat <= 48) {
+    } else if (flat >= 21 && flat <= 48) {
         console.log("Квартира знаходиться у 3-му під'їзді");
     } else {
         console.log("Не знаю ");
@@ -32,8 +33,8 @@ if (typeof Flat === "number" && Flat % 1 === 0) {
 
 // Ми маємо змінну number в яку користувач задає числове значення, якщо змінна дорівнює 10 вивести повідомлення ВІРНО, якщо змінна не рівна 10 - тоді НЕВІРНО
 let b = prompt("Введіть число:");
-if (typeof b === "number") {
-    if (b === 10) {
+if (!isNaN(+b)) {
+    if (+b === 10) {
         console.log("ВІРНО");
     } else {
         console.log("НЕВІРНО");
@@ -47,33 +48,21 @@ if (typeof b === "number") {
 // якщо в змінну записали щось інше, спрацьовує else
 
 let x = prompt("Введіть данні:");
-switch (typeof x) {
-    case "number": {
-        console.log(1);
-        break;
-    }
-    case "string": {
-        console.log(2);
-        break;
-    }
-    case "boolean": {
-        console.log(3);
-        break;
-    }
-    case "object": {
-        console.log(3);
-        break;
-    }
-    default: {
-        console.log("Я не знаю що це!!!");
-    }
+if (!isNaN(+x)) {
+    console.log(1);
+} else if (x.toLowerCase() === "true" || x.toLowerCase() === "false") {
+    console.log(3);
+} else {
+    console.log(2);
+
 }
+
 // - Задача-гра "чи ми йдемо сьогодні в OKTEN на навчання?".
 // Змінна, яка характеризує температуру. Якщо температура від +10 до +22 вивести повідомлення що ми йдемо ВЧИТИСЯ.
 // Якщо інша температура, тоді виводимо повідомлення що сидимо вдома і вчимося ОНЛАЙН
 
 let Temp = prompt("Введіть температуру:");
-if (typeof Temp === "number") {
+if (!isNaN()) {
     if (Temp >= 10 && Temp <= 22) {
         console.log("ми йдемо ВЧИТИСЯ");
     } else {
