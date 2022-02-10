@@ -92,6 +92,7 @@ function createDivFromArrObject(array) {
         for (let personItem in arrayElement) {
             document.write(`<div>${personItem}: ${arrayElement[personItem]}</div>`);
         }
+        console.log(arrayElement)
         document.write("</div>");
     }
 }
