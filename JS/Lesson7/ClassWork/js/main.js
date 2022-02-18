@@ -133,12 +133,8 @@ class Prince {
     }
 }
 
-class Princess {
-    constructor(name, age, shoeSize) {
-        this.name = name;
-        this.age = age;
-        this.shoeSize = shoeSize;
-    }
+class Princess extends Prince{
+
 }
 
 let createArrayPrincesses = () => {
