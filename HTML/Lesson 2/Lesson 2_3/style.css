@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.flexebtleCenter{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    margin: 10px;
+}
+header{
+    height: 200px;
+    background-color: blue;
+}
+.container{
+    width: 1024px;
+}
+.containerWidgets {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+
+}
+.blockWidth30percent{
+    width: 30%;
+    background-color: darkblue;
+}
+.containerContact{
+    height: 400px;
+    background-color: blue;
+}

@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.fontBlock200x200px {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fontRubikPixels {
+    font-family: 'Rubik Pixels', cursive;
+}
+
+.fontSedgwickAveDisplay {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.fontDancingScript {
+    font-family: 'Dancing Script', cursive;
+}
+
+.fontFjallaOne {
+    font-family: 'Fjalla One', cursive;
+}
+
+.fontIndieFlower {
+    font-family: 'Indie Flower', cursive;
+}

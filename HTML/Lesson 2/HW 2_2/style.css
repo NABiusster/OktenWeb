@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-color: antiquewhite;
+}
+.block100x100px{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 250ms;
+}
+.block100x100px:hover{
+    background-color: rgb(128, 128, 128);
+    border-radius: 50%;
+    transition: 250ms;
+}
