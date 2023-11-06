@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial Black", serif ;
+}
+.flexAlignCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div{
+    width: 40vw;
+    border: lightgrey solid 2px;
+}
+img{
+    width: 30vw;
+}
+form{
+    width: 30vw;
+}
+input{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    margin: 0 0 10px 0 ;
+    border: lightgrey solid 1px;
+    border-radius: 5px;
+}
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #68b5fa;
+    color: white;
+    font-size: 20px;
+}
+.facebookLogin{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+}
+.facebookLogin img{
+    width: 48px;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+.signUp{
+    margin-top: 10px;
+}
