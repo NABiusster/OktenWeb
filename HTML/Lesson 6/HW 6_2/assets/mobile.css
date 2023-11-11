@@ -1,0 +1,27 @@
+@media (max-width: 576px) {
+    .b{
+        height: 40vh;
+    }
+    .c,.d,.e{
+        height: 18vh;
+    }
+    main{
+        flex-direction: column;
+    }
+    .content{
+        width: 100vw;
+    }
+    header {
+        height: 20vh;
+    }
+    .container{
+        justify-content: space-evenly;
+        height: 20vh;
+    }
+
+.f{
+    width: 100vw;
+    height: 20vh;
+}
+
+}

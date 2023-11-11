@@ -1,0 +1,11 @@
+@media (max-width: 576px) {
+    .b, .c {
+        width: 98vw;
+    }
+.a, .c {
+    height: 18vh;
+}
+.b{
+    height: 58vh;
+}
+}

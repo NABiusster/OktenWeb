@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexAlignCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgLightgrey {
+    background-color: lightgrey;
+}
+
+.margin1vw1vh {
+    margin: 1vh 1vw;
+}
+
+.borderRadius10px {
+    border-radius: 10px;
+}
+
+header {
+    width: 98vw;
+    height: 31vh;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 65vw;
+}
+
+.b {
+    height: 31vh;
+}
+
+.c, .d, .e {
+    height: 31vh;
+    width: 20vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.f{
+    width: 30vw;
+    height: 65vh;
+}
