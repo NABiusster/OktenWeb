@@ -1,10 +1,275 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+    <link href="images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="images/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <title>Укрпошта</title>
 </head>
 <body>
 
+<header class="flexJustifyCenter">
+    <div class="container80vw">
+        <a href="#"><img alt="Укрпошта логотип" src="images/site-ua-logo.svg"></a>
+        <nav>
+            <ul>
+                <li class="navbarList"><a href="#">Трекінг</a></li>
+                <li class="navbarList"><a href="#">Послуги</a></li>
+                <li class="navbarList"><a href="#">Тарифи</a></li>
+                <li class="navbarList"><a href="#">Відділення</a></li>
+                <li class="navbarList"><a href="#">Філателія</a></li>
+                <li class="navbarList"><a href="#">Бізнесу</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="tabPanel flexJustifyCenter">
+    <div class="container80vw">
+        <section class="slider">
+            <h2>Оформлюйте передплату!</h2>
+            <p>Досхочу вибирайте й призи вигравайте</p>
+        </section>
+    </div>
+</section>
+<section class="services-block flexJustifyCenter">
+    <div class="container85vw flex paddingtop15vh">
+        <section class="leftslider flex">
+            <h2>Поштові послуги</h2>
+            <p>Замовляйте доставку у найвіддаленіші куточки України, відправляйте й отримуйте посилки з усього світу і
+                навпаки.</p>
+            <p>Виберіть доставку, яка найкраще підійде вам за термінами пересилання і вартістю.</p>
+        </section>
+        <section class="postalservices">
+            <div class="postalservice">
+                <h4>Доставка по Україні</h4>
+                <a href="#">Докладніше ></a>
+            </div>
+            <div class="postalservice">
+                <h4>Доставка документів</h4>
+                <a href="#">Докладніше ></a>
+            </div>
+            <div class="postalservice">
+                <h4>Доставка з інтернет-магазинів</h4>
+                <a href="#">Докладніше ></a>
+            </div>
+            <div class="postalservice">
+                <h4>Доставка ліків</h4>
+                <a href="#">Докладніше ></a>
+            </div>
+            <div class="postalservice">
+                <h4>Доставка по світу</h4>
+                <a href="#">Докладніше ></a>
+            </div>
+            <div class="postalservice">
+                <h4>Доставка в Україну</h4>
+                <a href="#">Докладніше ></a>
+            </div>
+        </section>
+        <div class="containerservices container85vw">
+            <form class="findtracknumber">
+                <input id="tracknumber" name="tracknumber" placeholder="Введіть номер відправлення" type="text">
+                <input id="submitracknumber" name="submitracknumber" type="button" value="">
+            </form>
+            <div class="serviceslinks">
+                <a class="servicelink" href="#"><img alt="calculate" src="images/calculate.svg">Розрахувати</a>
+                <a class="servicelink" href="#"><img alt="checkout" src="images/checkout.svg">Оформити</a>
+                <a class="servicelink" href="#findpostalcode"><img alt="find index" src="images/findindex.svg">Знайти
+                    індекс</a>
+                <a class="servicelink" href="#"><img alt="subscription" src="images/subscription.svg">Передплатити</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="exportblock flexJustifyCenter">
+    <div class="container80vw">
+        <div class="leftsidexportblock">
+            <h2>Започаткуйте успішний міжнародний бізнес!</h2>
+            <p>Продавайте товари за кордон через інтернет — нам довіряють 25 тисяч підприємців</p>
+            <a class="servicelink bcyellow" href="#">Перейти</a>
+        </div>
+    </div>
+</section>
+<section class="services-block flexJustifyCenter">
+    <div class="container85vw">
+        <div class="tabPanelservice">
+            <p class="p24pxbold">Укрпошта надала благодійної та гуманітарної допомоги на понад 150 мільйонів гривень</p>
+            <p>У 2022 році, коли росія вдалася до повномасштабного вторгнення на територію нашої держави, Укрпошта,
+                окрім основних…</p>
+            <a href="#">Докладніше ></a>
+        </div>
+        <h2>Фінансові послуги</h2>
+        <div class="flex gap2vw">
+            <div class="financialservice">
+                <h4>Грошові перекази</h4>
+                <a href="#">Докладніше></a>
+            </div>
+            <div class="financialservice">
+                <h4>Грошові перекази</h4>
+                <a href="#">Докладніше></a>
+            </div>
+            <div class="financialservice">
+                <h4>Грошові перекази</h4>
+                <a href="#">Докладніше></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="findpostalcode" class="flexJustifyCenter">
+    <div class="container85vw ">
+        <div class="findzipcodeform">
+            <h2>Знайти індекс</h2>
+            <p>Поштовий індекс — це код із 5 цифр, який допомагає пришвидшити сортування та доставку відправлень.
+                Поштовий індекс мають всі відділення Укрпошти та всі населені пункти України.</p>
+            <form class="findzipcode">
+                <input id="zipcode" name="zipcode" placeholder="Введіть назву населеного пункту" type="text">
+                <input id="submitzipcode" name="submitzipcode" type="button" value="Знайти">
+            </form>
+        </div>
+    </div>
+</section>
+<section class="middleblock flexJustifyCenter">
+    <div class="container85vw">
+        <h2>Новини</h2>
+        <div class="newsbox flex flexJustifyBetween flexwrap">
+            <div class="news">
+                <div class="newsheader flex">
+                    <img src="images/350_icon-01.png.png" alt="news category">
+                    <div class="flex flexdirectioncolumn marginleft2vw ">
+                        <p class="newsdate">06.11.2023</p>
+                        <p class="heading">Відновлення історичної назви міста Звягель</p>
+                    </div>
+                </div>
+                <p>09 листопада п.р. відбудеться погашення</p>
+            </div>
+            <div class="news">
+                <div class="newsheader flex ">
+                    <img src="images/pin_2.png.png" alt="news category">
+                    <div class="flex flexdirectioncolumn marginleft2vw ">
+                        <p class="newsdate">03.11.2023</p>
+                        <p class="heading">У селі Архангельське на Херсонщині відкрили стаціонарне відділення
+                            Укрпошти</p>
+                    </div>
+                </div>
+                <p>Днями відновило свою роботу стаціонарне автоматизоване відділення Укрпошти в селищі Архангельське
+                    (74022)…</p>
+            </div>
+            <div class="news">
+                <div class="newsheader flex">
+                    <img src="images/pin_2.png.png" alt="news category">
+                    <div class="flex flexdirectioncolumn marginleft2vw ">
+                        <p class="newsdate">03.11.2023</p>
+                        <p class="heading">Укрпошта в Японії: українські марки на філателістичній виставці JAPEX2023</p>
+                    </div>
+                </div>
+                <p>Сьогодні відбулося урочисте відкриття Всеяпонської філателістичної виставки JAPEX2023 під загальною
+                    назвою…</p>
+            </div>
+            <div class="news">
+                <div class="newsheader flex ">
+                    <img src="images/pin_2.png.png" alt="news category">
+                    <div class="flex flexdirectioncolumn marginleft2vw ">
+                        <p class="newsdate">03.11.2023</p>
+                        <p class="heading">Півтора року співпраці Укрпошти та Укрзалізниці: перевезено ≈15 млн
+                            відправлень та виплачено ≈170 млн грн…</p>
+                    </div>
+                </div>
+                <p>В Укрпошти й Укрзалізниці спільною є не лише основа «укр», а й проєкти, що реалізуються для підтримки
+                    українців та України. …</p>
+            </div>
+        </div>
+        <h2>Для юридичних осіб</h2>
+        <div class="linksbox flex flexJustifyBetween flexwrap ma">
+            <a href="#">Відправлення по Україні</a>
+            <a href="#">Експорт</a>
+            <a href="#">Програмне забезпечення</a>
+            <a href="#">Укласти договір</a>
+            <a href="#">Інтеграція API</a>
+            <a href="#">Особистий кабінет</a>
+        </div>
+    </div>
+</section>
+<section class="branchesbox flexJustifyCenter">
+    <div class="container80vw">
+        <h2>Онлайн-сервіси Укрпошти</h2>
+        <p>Оформлюй, відправляй та відстежуй “на ходу”</p>
+        <p><strong>Мобільний застосунок</strong></p>
+        <div class="flex">
+            <a href="#"><img src="images/googleplay.svg" alt=""></a>
+            <a href="#"><img src="images/appstore.svg" alt=""></a>
+        </div>
+        <p><strong>Чат-бот</strong></p>
+        <div class="flex">
+            <a href="#"><img src="images/telegram.png" alt=""></a>
+            <a href="#"><img src="images/viber.png" alt=""></a>
+            <a href="#"><img src="images/facebook.png" alt=""></a>
+
+        </div>
+    </div>
+</section>
+<footer class="flexJustifyCenter">
+    <div class="container85vw flex flexJustifyBetween">
+        <div class="collums4">
+            <p>Загальна інформація</p>
+            <p><a href="#">Про Укрпошту</a></p>
+            <p><a href="#">Наглядова рада</a></p>
+            <p><a href="#">Керівництво</a></p>
+            <p><a href="#">Дирекції</a></p>
+            <p><a href="#">Публічна інформація</a></p>
+            <p><a href="#">Закупівлі</a></p>
+            <p><a href="#">Продаж і оренда нерухомості</a></p>
+            <p><a href="#">Протидія корупції</a></p>
+            <p><a href="#">Політика безпеки дорожнього руху</a></p>
+            <p><a href="#">Конфіденційність</a></p>
+            <p><a href="#">Для представників ЗМІ</a></p>
+            <p><a href="#">Новини</a></p>
+        </div>
+        <div class="collums4">
+            <p>Поштові послуги</p>
+            <p><a href="#">Укрпошта Експрес</a></p>
+            <p><a href="#">Укрпошта Стандарт</a></p>
+            <p><a href="#">Укрпошта Документи</a></p>
+            <p><a href="#">Доставка по світу</a></p>
+            <p><a href="#">Доставка в Україну</a></p>
+            <p><a href="#">Великогабаритні або великовагові відправлення</a></p>
+            <p><a href="#">Кур’єрська доставка</a></p>
+            <p><a href="#">Розрахунок вартості</a></p>
+        </div>
+        <div class="collums4">
+            <p>Фінансові послуги</p>
+            <p><a href="#">Переказ «З картки додому»у</a></p>
+            <p><a href="#">Переказ «З картки до відділення»</a></p>
+            <p><a href="#">Переказ «З картки на картку»</a></p>
+            <p><a href="#">Міжнародні поштові перекази</a></p>
+            <p><a href="#">Внутрішні поштові перекази</a></p>
+            <p><a href="#">Платежі</a></p>
+            <p><a href="#">Страхові послуги</a></p>
+            <p><a href="#">Валютно-обмінні операції</a></p>
+        </div>
+        <div class="collums4">
+            <p>Інше</p>
+            <p><a href="#">Онлайн-сервіси</a></p>
+            <p><a href="#">Онлайн-передплата</a></p>
+            <p><a href="#">Поштовий маркет</a></p>
+            <p><a href="#">Продукти «Власної марки»</a></p>
+            <p><a href="#">Періодичні видання</a></p>
+            <p><a href="#">Для видавців</a></p>
+            <p><a href="#">Посткросинг</a></p>
+            <p><a href="#">Секограма</a></p>
+            <p><a href="#">Знайти індекс</a></p>
+            <p><a href="#">Знайти адресу</адресу></a></p>
+            <p><a href="#">Знайти відділення</a></p>
+            <p><a href="#">Довідка</a></p>
+            <p><a href="#">API від Укрпошти</a></p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
