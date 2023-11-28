@@ -111,14 +111,14 @@ let users = [
 // за допомоги циклу вивести:
 //     - користувачів зі статусом true
 for (const user of users) {
-    if (user["status"] === true) {
+    if (user["status"] ) {
         document.writeln(`<div>user:${user["name"]} with status ${user["status"]}</div>`)
     }
 }
 
 // - користувачів зі статусом false
 for (const user of users) {
-    if (user["status"] === false) {
+    if (!user["status"]) {
         document.writeln(`<div>user:${user["name"]} with status ${user["status"]}</div>`)
     }
 }
