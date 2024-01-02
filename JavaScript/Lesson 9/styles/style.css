@@ -1,0 +1,25 @@
+.main {
+    border: red solid 4px;
+    margin: 10px;
+}
+.blue-box {
+    border: blue solid 2px;
+    margin: 10px;
+}
+.text-center {
+    text-align: center;
+}
+.flex {
+    display: flex;
+}
+.grow1 {
+    flex-grow: 3;
+}
+.grow5 {
+    flex-grow: 5;
+}
+/*
+.margin {
+    margin: 10px;
+    padding: 0;
+}*/
