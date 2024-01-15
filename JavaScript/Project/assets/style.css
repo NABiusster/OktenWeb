@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+}
+
+.border-box {
+    border: #0E2F4B 2px solid;
+}
+
+.margin1vw {
+    margin: 1vh 1vw;
+}
+
+.flex {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    width: 43vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vh 1vw;
+    font-size: small;
+}
+
+.width90center {
+    align-self: center;
+    width: 90vw;
+}
+
+body {
+    text-align: center;
+}
+
+li {
+    text-align: start;
+}
+
+.post {
+    width: 15vw;
+}
+
+ul {
+    border: brown 2px solid;
+    margin: 1px;
+    list-style: none;
+}
+
+li {
+    border: blue 2px solid;
+    margin: 1px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.relative {
+    position: relative;
+}
+
+.comment {
+    width: 21vw;
+}
+
+.footer {
+    font-size: small;
+}
